@@ -1,0 +1,92 @@
+.container{
+  border-radius: 2px;
+  border: 2px solid rgba(211,211,211,0.5);
+  box-shadow: 0px 0px 5px darkgray;
+  
+  
+}
+
+.animation{
+  animation: color_animation 5s 2;
+
+}
+
+@keyframes color_animation {
+0%  {opacity: 0;}
+  50% {opacity:0.5;}
+  75% {opacity:0.75;}
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 2em;
+  align-items:flex-start;
+  margin: 1vh;
+  padding-left: 1vh;
+  background-color: rgba(211,211,211,0.5);
+}
+.counter >* {
+
+}
+.arrows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items:center;
+  height: 80%;
+  margin: 0 30px;
+  width: auto;
+}
+.container > div {
+
+  flex-grow: 1;
+  text-align: center;
+  line-height: 30px;
+  
+  
+  
+  cursor: pointer;
+}
+.news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: space-between;
+  background-color: rgba(211,211,211,0.3);
+  margin: 1vh;
+}
+
+.circle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 1vh;
+  padding: 1vh;
+  justify-content: center;
+}
+
+.circle > * {
+  width:10px;
+  height:1%;
+  margin: 10px;
+  
+}
+
+.left--arrow > img{
+width: 2vw;
+
+}
+
+.empty--arrow {
+  flex-grow: 3;
+}
+
+
+.right--arrow {
+width: 2vw;
+
+}
